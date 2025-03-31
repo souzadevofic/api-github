@@ -6,7 +6,29 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    position: relative; 
+    z-index: 10; 
+}
+
+.container-github .luz_azul_esquerda {
+    position: absolute;
+    top: 200px;
+    left: 1px;
+    z-index: -1; 
+}
+
+.container-github .luz_azul_direita {
+    position: absolute;
+    top: -1px;
+    right: 1px;
+    z-index: -1;
+}
+
+.container-github .quadro_pontilhado {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    z-index: -1;
 }
 
 .container-logo {
