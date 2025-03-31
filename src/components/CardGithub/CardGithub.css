@@ -1,19 +1,15 @@
-.card_github{
-    position: relative;
-    flex-direction: column;
+.card_github {
     background-color: rgb(7, 8, 8);
     width: 800px;
-    margin-left: 300px;
-    margin-top: 150px;
     height: 500px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .container-logo {
-    position: absolute;
-    top: 50px;
     gap: 10px;
     justify-content: center;
     align-items: center;
@@ -26,8 +22,9 @@
 }
 
 .container-logo .logo {
-    height: 80px; 
+    height: 80px;
 }
+
 .navbar{
     position: fixed;
     margin-top: 10px;
