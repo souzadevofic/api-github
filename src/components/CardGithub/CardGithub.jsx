@@ -28,7 +28,7 @@ export function CardGithub() {
                                 <input
                                     className="form-control"
                                     type="search"
-                                    placeholder="Search"
+                                    placeholder="Digite um usuário do Github"
                                     value={usuario}
                                     onChange={(e) => setUsuario(e.target.value)}
                                 />
