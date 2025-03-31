@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './CardPerfil.css';
+import { Spinner } from '../Spinner/Spinner';
 
 export function CardPerfil({ usuarioGitHub }) {
     const [perfil, setPerfil] = useState(null);
@@ -44,7 +45,11 @@ export function CardPerfil({ usuarioGitHub }) {
     }
 
     if (!perfil) {
-        return <p>Carregando...</p>;
+        return (   
+            <> 
+                <Spinner/>
+            </>
+        )
     }
 
     return (
