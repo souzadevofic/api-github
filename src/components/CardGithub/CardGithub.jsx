@@ -48,8 +48,6 @@ export function CardGithub() {
                     </nav>
                     {mostrarPerfil && <CardPerfil usuarioGitHub={usuarioPesquisado} />}
                 </div>  
-
-
             </div>
         </>
     );
