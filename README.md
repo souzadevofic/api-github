@@ -1,4 +1,4 @@
-# Loja E-commerce Avanti
+# Busca de perfil do Github com a API Github
 ![Versão](https://img.shields.io/badge/Vers%C3%A3o-1.0_-blue)
 ![CSS](https://img.shields.io/badge/CSS-3-1572B6?logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap&logoColor=white)
